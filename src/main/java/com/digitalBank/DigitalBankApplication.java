@@ -1,12 +1,12 @@
-package com.userFront;
+package com.ditialBank;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UserFrontApplication {
+public class DigitalBankApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UserFrontApplication.class, args);
+		SpringApplication.run(DigitalBankApplication.class, args);
 	}
 }
