@@ -1,4 +1,4 @@
-package com.userFront.service.UserServiceImpl;
+package com.digitalBank.service.UserServiceImpl;
 
 import java.math.BigDecimal;
 import java.security.Principal;
@@ -7,16 +7,16 @@ import java.util.Date;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.userFront.dao.PrimaryAccountDao;
-import com.userFront.dao.SavingsAccountDao;
-import com.userFront.domain.PrimaryAccount;
-import com.userFront.domain.PrimaryTransaction;
-import com.userFront.domain.SavingsAccount;
-import com.userFront.domain.SavingsTransaction;
-import com.userFront.domain.User;
-import com.userFront.service.AccountService;
-import com.userFront.service.TransactionService;
-import com.userFront.service.UserService;
+import com.digitalBank.dao.PrimaryAccountDao;
+import com.digitalBank.dao.SavingsAccountDao;
+import com.digitalBank.domain.PrimaryAccount;
+import com.digitalBank.domain.PrimaryTransaction;
+import com.digitalBank.domain.SavingsAccount;
+import com.digitalBank.domain.SavingsTransaction;
+import com.digitalBank.domain.User;
+import com.digitalBank.service.AccountService;
+import com.digitalBank.service.TransactionService;
+import com.digitalBank.service.UserService;
 
 @Service
 public class AccountServiceImpl implements AccountService {
