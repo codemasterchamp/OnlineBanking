@@ -1,4 +1,4 @@
-package com.userFront.domain;
+package com.digitalBank.domain;
 
 import java.util.Collection;
 import java.util.HashSet;
@@ -19,8 +19,8 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.userFront.domain.security.Authority;
-import com.userFront.domain.security.UserRole;
+import com.digitalBank.domain.security.Authority;
+import com.digitalBank.domain.security.UserRole;
 
 @Entity
 public class User implements UserDetails{

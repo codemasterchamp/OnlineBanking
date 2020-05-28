@@ -1,9 +1,9 @@
-package com.userFront.service;
+package com.digitalBank.service;
 
 import java.security.Principal;
 
-import com.userFront.domain.PrimaryAccount;
-import com.userFront.domain.SavingsAccount;
+import com.digitalBank.domain.PrimaryAccount;
+import com.digitalBank.domain.SavingsAccount;
 
 public interface AccountService {
 

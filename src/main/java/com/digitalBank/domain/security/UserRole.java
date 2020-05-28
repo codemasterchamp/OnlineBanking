@@ -1,6 +1,6 @@
-package com.userFront.domain.security;
+package com.digitalBank.domain.security;
 
-import com.userFront.domain.User;
+import com.digitalBank.domain.User;
 
 import javax.persistence.*;
 

@@ -1,4 +1,4 @@
-package com.userFront.controller;
+package com.digitalBank.controller;
 
 import java.security.Principal;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.userFront.domain.User;
-import com.userFront.service.UserService;
+import com.digitalBank.domain.User;
+import com.digitalBank.service.UserService;
 
 @Controller
 @RequestMapping("/user")

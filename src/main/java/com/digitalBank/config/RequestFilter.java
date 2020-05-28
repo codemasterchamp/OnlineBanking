@@ -1,4 +1,4 @@
-package com.userFront.config;
+package com.digitalBank.config;
 
 import javax.servlet.Filter;
 import javax.servlet.FilterChain;

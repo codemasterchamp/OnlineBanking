@@ -1,4 +1,4 @@
-package com.userFront.domain;
+package com.digitalBank.domain;
 
 import java.math.BigDecimal;
 import java.util.Date;

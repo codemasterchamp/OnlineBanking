@@ -1,4 +1,4 @@
-package com.userFront.domain.security;
+package com.digitalBank.domain.security;
 
 import org.springframework.security.core.GrantedAuthority;
 

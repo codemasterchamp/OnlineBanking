@@ -1,4 +1,4 @@
-package com.userFront.domain;
+package com.digitalBank.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

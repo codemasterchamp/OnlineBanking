@@ -1,4 +1,4 @@
-package com.userFront.resource;
+package com.digitalBank.resource;
 
 import java.util.List;
 
@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.userFront.domain.PrimaryTransaction;
-import com.userFront.domain.SavingsTransaction;
-import com.userFront.domain.User;
-import com.userFront.service.TransactionService;
-import com.userFront.service.UserService;
+import com.digitalBank.domain.PrimaryTransaction;
+import com.digitalBank.domain.SavingsTransaction;
+import com.digitalBank.domain.User;
+import com.digitalBank.service.TransactionService;
+import com.digitalBank.service.UserService;
 
 @RestController
 @RequestMapping("/api")

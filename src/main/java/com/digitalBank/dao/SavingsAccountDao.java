@@ -1,6 +1,6 @@
-package com.userFront.dao;
+package com.digitalBank.dao;
 
-import com.userFront.domain.SavingsAccount;
+import com.digitalBank.domain.SavingsAccount;
 import org.springframework.data.repository.CrudRepository;
 
 

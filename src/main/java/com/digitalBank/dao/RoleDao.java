@@ -1,8 +1,8 @@
-package com.userFront.dao;
+package com.digitalBank.dao;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.userFront.domain.security.Role;
+import com.digitalBank.domain.security.Role;
 
 public interface RoleDao extends CrudRepository<Role, Integer> {
 

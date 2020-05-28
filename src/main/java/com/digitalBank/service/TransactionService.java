@@ -1,13 +1,13 @@
-package com.userFront.service;
+package com.digitalBank.service;
 
 import java.security.Principal;
 import java.util.List;
 
-import com.userFront.domain.PrimaryAccount;
-import com.userFront.domain.PrimaryTransaction;
-import com.userFront.domain.Recipient;
-import com.userFront.domain.SavingsAccount;
-import com.userFront.domain.SavingsTransaction;
+import com.digitalBank.domain.PrimaryAccount;
+import com.digitalBank.domain.PrimaryTransaction;
+import com.digitalBank.domain.Recipient;
+import com.digitalBank.domain.SavingsAccount;
+import com.digitalBank.domain.SavingsTransaction;
 
 public interface TransactionService {
 	List<PrimaryTransaction> findPrimaryTransactionList(String username);

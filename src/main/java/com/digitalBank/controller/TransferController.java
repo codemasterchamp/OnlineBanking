@@ -1,4 +1,4 @@
-package com.userFront.controller;
+package com.digitalBank.controller;
 
 import java.security.Principal;
 import java.util.List;
@@ -12,12 +12,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.userFront.domain.PrimaryAccount;
-import com.userFront.domain.Recipient;
-import com.userFront.domain.SavingsAccount;
-import com.userFront.domain.User;
-import com.userFront.service.TransactionService;
-import com.userFront.service.UserService;
+import com.digitalBank.domain.PrimaryAccount;
+import com.digitalBank.domain.Recipient;
+import com.digitalBank.domain.SavingsAccount;
+import com.digitalBank.domain.User;
+import com.digitalBank.service.TransactionService;
+import com.digitalBank.service.UserService;
 
 @Controller
 @RequestMapping("/transfer")

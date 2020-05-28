@@ -1,10 +1,10 @@
-package com.userFront.service;
+package com.digitalBank.service;
 
 import java.util.List;
 import java.util.Set;
 
-import com.userFront.domain.User;
-import com.userFront.domain.security.UserRole;
+import com.digitalBank.domain.User;
+import com.digitalBank.domain.security.UserRole;
 
 public interface UserService {
 	

@@ -1,4 +1,4 @@
-package com.userFront.service.UserServiceImpl;
+package com.digitalBank.service.UserServiceImpl;
 
 import java.util.List;
 import java.util.Set;
@@ -10,12 +10,12 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.userFront.dao.RoleDao;
-import com.userFront.dao.UserDao;
-import com.userFront.domain.User;
-import com.userFront.domain.security.UserRole;
-import com.userFront.service.AccountService;
-import com.userFront.service.UserService;
+import com.digitalBank.dao.RoleDao;
+import com.digitalBank.dao.UserDao;
+import com.digitalBank.domain.User;
+import com.digitalBank.domain.security.UserRole;
+import com.digitalBank.service.AccountService;
+import com.digitalBank.service.UserService;
 
 @Service
 @Transactional

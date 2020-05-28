@@ -1,6 +1,6 @@
-package com.userFront.dao;
+package com.digitalBank.dao;
 
-import com.userFront.domain.PrimaryAccount;
+import com.digitalBank.domain.PrimaryAccount;
 import org.springframework.data.repository.CrudRepository;
 
 public interface PrimaryAccountDao extends CrudRepository<PrimaryAccount,Long> {
